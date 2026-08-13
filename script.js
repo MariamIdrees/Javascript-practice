@@ -102,3 +102,19 @@ console.log (--j)
 let age = 12
 let vote = (age >=18 ? "you can vote" : "you cannot vote")
 console.log (vote);
+
+ let k = parseInt(prompt ("Enter your first number"))
+ let l = parseInt(prompt("Enter your second number"))
+alert(k+l)
+
+alert ("Hello Everyone")
+let newAge = prompt("Enter your age")
+let newVote = newAge >=18 ? "you can vote" : "you cannot vote"
+
+alert(newVote)
+console.log (typeof newAge)
+console.log (newAge)
+
+let sCore = 45
+console.log ("this is the user ${sCore}")
+
