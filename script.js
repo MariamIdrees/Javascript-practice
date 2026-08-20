@@ -139,10 +139,47 @@
 //     console.log (p)
 // }
 // }
-for (q = 1; q <= 20; q++){
-    for (r = 1; r <=12; r++){
-        let s = `${q} * ${r} = ${q*r}`;
-    console.log (s);
+// for (q = 1; q <= 20; q++){
+//     for (r = 1; r <=12; r++){
+//         let s = `${q} * ${r} = ${q*r}`;
+//     console.log (s);
 
-}
-}
+// }
+// }
+
+const myFruits = ["apple", "banana", "kiwi", "watermelon", "orange", "pineapple", "coconut", "pear" 
+    
+
+]
+
+console.log (myFruits)
+console.log (myFruits[5])
+ myFruits.push("grapes")
+console.log (myFruits)
+myFruits.pop ()
+console.log(myFruits)
+myFruits.unshift("pawpaw")
+console.log (myFruits)
+myFruits.shift()
+console.log (myFruits)
+myFruits.splice(2, 3)
+console.log (myFruits)
+ 
+let num =  (1,3,6,4)
+
+
+console.log (myFruits.concat(num))
+
+let va = "samuel is a boy"
+console.log (va )
+
+console.log(myFruits.join("-"))
+
+console.log(myFruits.indexOf("coconut"))
+console.log(myFruits.includes("banana"))
+console.log(myFruits.sort())
+console.log(myFruits.reverse())
+
+// const myStudents = [
+//     {name: "bola". age: 22 , ms: "single" },
+// ]
