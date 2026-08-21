@@ -147,39 +147,76 @@
 // }
 // }
 
-const myFruits = ["apple", "banana", "kiwi", "watermelon", "orange", "pineapple", "coconut", "pear" 
+// const myFruits = ["apple", "banana", "kiwi", "watermelon", "orange", "pineapple", "coconut", "pear" 
     
 
+// ]
+
+// console.log (myFruits)
+// console.log (myFruits[5])
+//  myFruits.push("grapes")
+// console.log (myFruits)
+// myFruits.pop ()
+// console.log(myFruits)
+// myFruits.unshift("pawpaw")
+// console.log (myFruits)
+// myFruits.shift()
+// console.log (myFruits)
+// myFruits.splice(2, 3)
+// console.log (myFruits)
+ 
+// let num =  (1,3,6,4)
+
+
+// console.log (myFruits.concat(num))
+
+// let va = "samuel is a boy"
+// console.log (va )
+
+// console.log(myFruits.join("-"))
+
+// console.log(myFruits.indexOf("coconut"))
+// console.log(myFruits.includes("banana"))
+// console.log(myFruits.sort())
+// console.log(myFruits.reverse())
+
+const myStudents = [
+    {name: "bola", age: 22 , ms: "single" },
+    {name: "irene", age: 25 , ms: "complicated" },
+    {name: "grace", age: 32 , ms: "married" },
+    {name: "mariam", age: 21 , ms: "married" },
+    {name: "victory", age: 27 , ms: "25" },
+    {name: "love", age: 29 , ms: ",married" },
+    {name: "esther", age: 23 , ms: "single" },
+    {name: "bushra", age: 19 , ms: "single" },
+    {name: "edwin", age: 24 , ms: "single" },
+    {name: "kachi", age: 28 , ms: "complicated" },
+    {name: "favour", age: 20 , ms: "single" },
+    {name: "tife", age: 21 , ms: "single" },
+    {name: "karimot", age: 26 , ms: "complicated" },
 ]
 
-console.log (myFruits)
-console.log (myFruits[5])
- myFruits.push("grapes")
-console.log (myFruits)
-myFruits.pop ()
-console.log(myFruits)
-myFruits.unshift("pawpaw")
-console.log (myFruits)
-myFruits.shift()
-console.log (myFruits)
-myFruits.splice(2, 3)
-console.log (myFruits)
+// console.log (myStudents[5])
+// myStudents.forEach((stdName, index)=>{
+//     console.log(stdName.name)
+    
+// })
+
+// myStudents.forEach(({name, age, ms}, index)=>{
+//   console.log (name)
+// })
+
+
+// const names = myStudents.map((allData, index ) => {
+//    return allData.name
+// })
+// console.log(names)
+
+const olderStudents = myStudents.filter((students)=> {
+       return students.age <  23
+})
+console.log (olderStudents);
+
+
+// const students = myStudents.find 
  
-let num =  (1,3,6,4)
-
-
-console.log (myFruits.concat(num))
-
-let va = "samuel is a boy"
-console.log (va )
-
-console.log(myFruits.join("-"))
-
-console.log(myFruits.indexOf("coconut"))
-console.log(myFruits.includes("banana"))
-console.log(myFruits.sort())
-console.log(myFruits.reverse())
-
-// const myStudents = [
-//     {name: "bola". age: 22 , ms: "single" },
-// ]
