@@ -180,21 +180,21 @@
 // console.log(myFruits.sort())
 // console.log(myFruits.reverse())
 
-const myStudents = [
-    {name: "bola", age: 22 , ms: "single" },
-    {name: "irene", age: 25 , ms: "complicated" },
-    {name: "grace", age: 32 , ms: "married" },
-    {name: "mariam", age: 21 , ms: "married" },
-    {name: "victory", age: 27 , ms: "25" },
-    {name: "love", age: 29 , ms: ",married" },
-    {name: "esther", age: 23 , ms: "single" },
-    {name: "bushra", age: 19 , ms: "single" },
-    {name: "edwin", age: 24 , ms: "single" },
-    {name: "kachi", age: 28 , ms: "complicated" },
-    {name: "favour", age: 20 , ms: "single" },
-    {name: "tife", age: 21 , ms: "single" },
-    {name: "karimot", age: 26 , ms: "complicated" },
-]
+// const myStudents = [
+//     {name: "bola", age: 22 , ms: "single" },
+//     {name: "irene", age: 25 , ms: "complicated" },
+//     {name: "grace", age: 32 , ms: "married" },
+//     {name: "mariam", age: 21 , ms: "married" },
+//     {name: "victory", age: 27 , ms: "25" },
+//     {name: "love", age: 29 , ms: ",married" },
+//     {name: "esther", age: 23 , ms: "single" },
+//     {name: "bushra", age: 19 , ms: "single" },
+//     {name: "edwin", age: 24 , ms: "single" },
+//     {name: "kachi", age: 28 , ms: "complicated" },
+//     {name: "favour", age: 20 , ms: "single" },
+//     {name: "tife", age: 21 , ms: "single" },
+//     {name: "karimot", age: 26 , ms: "complicated" },
+// ]
 
 // console.log (myStudents[5])
 // myStudents.forEach((stdName, index)=>{
@@ -212,11 +212,48 @@ const myStudents = [
 // })
 // console.log(names)
 
-const olderStudents = myStudents.filter((students)=> {
-       return students.age <  23
-})
-console.log (olderStudents);
+// const olderStudents = myStudents.filter((students)=> {
+//        return students.age <  23
+// })
+// console.log (olderStudents);
 
 
 // const students = myStudents.find 
+// // 
+// const makeupBox = ["eyepencil" ,"powder" ,"foundation", "eyeshadow", "lipgloss", "bronzer", "lipstick", "concealer"]
+//  console.log (makeupBox)
  
+//  console.log (makeupBox[6])
+//  makeupBox.push ('lipbalm')
+//  console.log (makeupBox)
+// makeupBox.pop()
+// console.log (makeupBox)
+// makeupBox.unshift("lipbalm")
+// console.log (makeupBox)
+// makeupBox.shift()
+// console.log (makeupBox)
+
+// let party = "big mummy at 70"
+// console.log (party
+// )
+// console.log(makeupBox.concat(party))
+// console.log (makeupBox.join("-"))
+
+
+const  studentInfo =[
+ {name: "tunde,", age : 19 , gender: "male", email: "tunde@gmail.com" },
+{ name: "bisi,", age : 29 , gender: "female", email: "bisi@gmail.com" },
+{name: "kola,", age : 30 , gender: "male", email: "kola@gmail.com" },
+ {name: "kachi,", age : 22 , gender: "male", email: "kachi@gmail.com" },
+{name: "ayomide,", age : 28 , gender: "male", email: "ayomide@gmail.com" },
+    {name: "fola,", age : 26 , gender: "female", email: "fola@gmail.com" },
+   {name: "wura,", age : 32, gender: "female", email: "wura@gmail.com" }
+]
+
+console.log(studentInfo[4])
+studentInfo.forEach((datInfos, index) => {
+console.log(datInfos.gender)
+})
+// studentInfo.forEach({name, age, gender, email}, index) =>{
+//     console.log (studentInfo)
+// }
