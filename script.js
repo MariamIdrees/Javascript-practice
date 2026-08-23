@@ -246,14 +246,37 @@ const  studentInfo =[
 {name: "kola,", age : 30 , gender: "male", email: "kola@gmail.com" },
  {name: "kachi,", age : 22 , gender: "male", email: "kachi@gmail.com" },
 {name: "ayomide,", age : 28 , gender: "male", email: "ayomide@gmail.com" },
-    {name: "fola,", age : 26 , gender: "female", email: "fola@gmail.com" },
-   {name: "wura,", age : 32, gender: "female", email: "wura@gmail.com" }
+ {name: "fola,", age : 26 , gender: "female", email: "fola@gmail.com" },
+{name: "wura,", age : 32, gender: "female", email: "wura@gmail.com" }
 ]
 
 console.log(studentInfo[4])
 studentInfo.forEach((datInfos, index) => {
 console.log(datInfos.gender)
 })
-// studentInfo.forEach({name, age, gender, email}, index) =>{
-//     console.log (studentInfo)
-// }
+studentInfo.forEach(({name, age, gender, email}, index) =>{
+    console.log (`${name} is ${age} years old and is a ${gender}`)
+})
+
+const names = studentInfo.map ((allData, index)=>{
+    return allData.email
+}
+)
+console.log (names)
+
+const youngerStudents = studentInfo.filter((studs)=>{
+        return studs.age >= 17
+}
+
+)
+console.log (studentInfo)
+
+const femaleStudents = studentInfo.filter((studs) =>   
+   {return studs.gender === "female"}
+)
+console.log (femaleStudents)
+
+const findStudents = studentInfo.find((studs) => 
+{return studs.name === "ayo"}
+)
+console.log (findStudents)
