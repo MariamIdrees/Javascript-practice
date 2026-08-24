@@ -240,43 +240,72 @@
 // console.log (makeupBox.join("-"))
 
 
-const  studentInfo =[
- {name: "tunde,", age : 19 , gender: "male", email: "tunde@gmail.com" },
-{ name: "bisi,", age : 29 , gender: "female", email: "bisi@gmail.com" },
-{name: "kola,", age : 30 , gender: "male", email: "kola@gmail.com" },
- {name: "kachi,", age : 22 , gender: "male", email: "kachi@gmail.com" },
-{name: "ayomide,", age : 28 , gender: "male", email: "ayomide@gmail.com" },
- {name: "fola,", age : 26 , gender: "female", email: "fola@gmail.com" },
-{name: "wura,", age : 32, gender: "female", email: "wura@gmail.com" }
-]
+// const  studentInfo =[
+//  {name: "tunde,", age : 19 , gender: "male", email: "tunde@gmail.com" },
+// { name: "bisi,", age : 29 , gender: "female", email: "bisi@gmail.com" },
+// {name: "kola,", age : 30 , gender: "male", email: "kola@gmail.com" },
+//  {name: "kachi,", age : 22 , gender: "male", email: "kachi@gmail.com" },
+// {name: "ayomide,", age : 28 , gender: "male", email: "ayomide@gmail.com" },
+//  {name: "fola,", age : 26 , gender: "female", email: "fola@gmail.com" },
+// {name: "wura,", age : 32, gender: "female", email: "wura@gmail.com" }
+// ]
 
-console.log(studentInfo[4])
-studentInfo.forEach((datInfos, index) => {
-console.log(datInfos.gender)
-})
-studentInfo.forEach(({name, age, gender, email}, index) =>{
-    console.log (`${name} is ${age} years old and is a ${gender}`)
-})
+// console.log(studentInfo[4])
+// studentInfo.forEach((datInfos, index) => {
+// console.log(datInfos.gender)
+// })
+// studentInfo.forEach(({name, age, gender, email}, index) =>{
+//     console.log (`${name} is ${age} years old and is a ${gender}`)
+// })
 
-const names = studentInfo.map ((allData, index)=>{
-    return allData.email
+// const names = studentInfo.map ((allData, index)=>{
+//     return allData.email
+// }
+// )
+// console.log (names)
+
+// const youngerStudents = studentInfo.filter((studs)=>{
+//         return studs.age >= 17
+// }
+
+// )
+// console.log (studentInfo)
+
+// const femaleStudents = studentInfo.filter((studs) =>   
+//    {return studs.gender === "female"}
+// )
+// console.log (femaleStudents)
+
+// const findStudents = studentInfo.find((studs) => 
+// {return studs.name === "ayo"}
+// )
+// console.log (findStudents)
+
+// const mealRoutine = (threeSquareMeal)=> {
+//     if (prompt("breakfast is eaten")){
+//         alert ("no lunch for you")
+
+//     }
+//  else(prompt("lunch is eaten"));{
+//     alert("no dinner for you")
+//  }
+//  return (threeSquareMeal)
+// }
+
+// console.log(mealRoutine)
+
+const calculatePerimeter = (width, height) => {
+    let perimeter = (2 * width) + (2* height)
+    console.log (perimeter)
+    return (perimeter)
+
 }
-)
-console.log (names)
+calculatePerimeter(5, 10)
 
-const youngerStudents = studentInfo.filter((studs)=>{
-        return studs.age >= 17
+const addNumber = (numOne, numTwo) => {
+let addThem = numOne * numTwo
+let resultNum = Math.pow (addThem, 2)
+return (resultNum)
 }
 
-)
-console.log (studentInfo)
-
-const femaleStudents = studentInfo.filter((studs) =>   
-   {return studs.gender === "female"}
-)
-console.log (femaleStudents)
-
-const findStudents = studentInfo.find((studs) => 
-{return studs.name === "ayo"}
-)
-console.log (findStudents)
+console.log (addNumber(5, 7))
