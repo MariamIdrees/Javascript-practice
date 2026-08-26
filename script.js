@@ -309,3 +309,36 @@ return (resultNum)
 }
 
 console.log (addNumber(5, 7))
+
+calculatePerimeter(5, 10)
+
+// const addNumber = (numOne, numTwo) => {
+// let addThem = numOne * numTwo
+// let resultNum = Math.pow (addThem, 2)
+// return (resultNum)
+// }
+
+// console.log (addNumber(5, 7))
+
+// const tryingNew = (user, age) => {
+//    prompt ("Hello, who are you and how old are you?")
+//         alert (`your name is ${user} and you are ${age} years old`)
+    
+//     return (tryingNew)
+// }
+
+
+// tryingNew("Samuel", 25)
+// tryingNew("bola", 22)
+// tryingNew("irene", 25)
+// tryingNew("tife", 27)
+
+// #DOM in Javascript
+console.log (document)
+
+const myButton = document.getElementById("btn")
+myButton.textContent = "log in"
+myButton.style.backgroundColor = "pink"
+myButton.style.width = "100px"
+myButton.style.borderRadius = "8px"
+
