@@ -294,18 +294,48 @@
 
 // console.log(mealRoutine)
 
-const calculatePerimeter = (width, height) => {
-    let perimeter = (2 * width) + (2* height)
-    console.log (perimeter)
-    return (perimeter)
+// const calculatePerimeter = (width, height) => {
+//     let perimeter = (2 * width) + (2* height)
+//     console.log (perimeter)
+//     return (perimeter)
 
-}
-calculatePerimeter(5, 10)
+// }
+// calculatePerimeter(5, 10)
 
-const addNumber = (numOne, numTwo) => {
-let addThem = numOne * numTwo
-let resultNum = Math.pow (addThem, 2)
-return (resultNum)
-}
+// const addNumber = (numOne, numTwo) => {
+// let addThem = numOne * numTwo
+// let resultNum = Math.pow (addThem, 2)
+// return (resultNum)
+// }
 
-console.log (addNumber(5, 7))
+// console.log (addNumber(5, 7))
+
+const names = "mariam modupe idrees"
+const country = "nigeria"
+let age = 22
+let isStudent = true 
+let favouriteFood = null
+age += 1
+
+
+
+console.log (names)
+console.log (country)
+console.log (age)
+console.log (isStudent)
+console.log (favouriteFood)
+console.log (`my name is ${names}, i am ${age} years old, iam from ${country} and i am a student. `)
+console.log(age)
+
+
+
+console.log ( typeof names)
+console.log (typeof country)
+console.log (typeof age)
+console.log (typeof isStudent)
+console.log (typeof favouriteFood)
+console.log (`my name is ${names}, i am ${age} years old, iam from ${country} and i am a student. `)
+console.log(typeof age)
+
+favouriteFood = "jollofRice"
+console.log (favouriteFood)
